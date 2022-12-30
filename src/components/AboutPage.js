@@ -72,14 +72,15 @@ const AboutPage = () => {
           Language: Korean, Russian, English
           <br />
           Education:
-          <br /> Kyung Hee University Russian Language
+          <br /> - Kyung Hee University Russian Language
           Department(2013.03-2021.02)
           <br />
-          Elice Ai Track 5(2022.06-2022.12)
+          - Elice Ai Track 5(2022.06-2022.12)
           <br /> Career:
-          <br /> AS a staff in oversea sales at ООО ТУР КЛУБ (2018.04 - 2019.07)
-          <br />
-          As a staff in buisiness management at GS Retail (2020.12 - 2022.06)
+          <br /> - AS a staff in oversea sales at ООО ТУР КЛУБ (2018.04 -
+          2019.07)
+          <br />- As a staff in buisiness management at GS Retail (2020.12 -
+          2022.06)
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
