@@ -21,33 +21,40 @@ const Icons = styled.div`
 const Line = styled.span`
   width: 2px;
   height: 8rem;
-  background-color: ${(props) => props.color=== 'dark'? DarkTheme.text : DarkTheme.body};
+  background-color: ${(props) =>
+    props.color === "dark" ? DarkTheme.text : DarkTheme.body};
 `;
 
 const SocialIcons = (props) => {
   return (
     <Icons>
       <div>
-        <a href="https://github.com/parkgeunhyuk1" style={{ color: "inherit" }} target="_blank" >
-          <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}  />
+        <a
+          href="https://github.com/parkgeunhyuk1"
+          style={{ color: "inherit" }}
+          target="_blank"
+        >
+          <Github
+            width={25}
+            height={25}
+            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
+          />
         </a>
       </div>
       <div>
-        <NavLink  to="/" style={{ color: "inherit" }} target="_blank">
-          <Twitter  width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}  />
-        </NavLink>
-      </div>
-      <div>
-        <NavLink  to="/" style={{ color: "inherit" }} target="_blank">
-          <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}  />
-        </NavLink>
-      </div>
-      <div>
-        <a href="https://www.youtube.com/watch?v=Dt7841js0XM&t=2s" style={{ color: "inherit" }} target="_blank">
-          <YouTube width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
+        <a
+          href="https://www.youtube.com/watch?v=Dt7841js0XM&t=2s"
+          style={{ color: "inherit" }}
+          target="_blank"
+        >
+          <YouTube
+            width={25}
+            height={25}
+            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
+          />
         </a>
       </div>
-      <Line color={props.theme}/>
+      <Line color={props.theme} />
     </Icons>
   );
 };

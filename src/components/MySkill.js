@@ -77,38 +77,18 @@ const MySkill = () => {
         <LogoComponent theme="light" />
         <SocialIcons theme="light" />
         <PowerButton />
-        <ParticleComponent theme='light' />
-        <Main>
-          <Title>
-            <Design width={40} height={40} /> Designer
-          </Title>
-          <Description>
-            I love to create design which speaks, Keep it clean, minimal and
-            simple.
-          </Description>
-          <Description>
-            <strong>I like to desing</strong>
-            <ul>
-              <li>Web Design</li>
-            </ul>
-          </Description>
-          <Description>
-            <strong>Tools</strong>
-            <ul>
-              <li>Figma</li>
-            </ul>
-          </Description>
-        </Main>
+        <ParticleComponent theme="light" />
         <Main>
           <Title>
             <Develope width={40} height={40} /> Frontend Developer
           </Title>
           <Description>
-            I value business or brand for which i',m creating
+            I'd love to learn new skills and use that skills. I'm not afraid to
+            try new technologies.
           </Description>
           <Description>
             <strong>Skills</strong>
-            <p>Html, Css, Js, React, Typescript, Recoil, Redux etc.</p>
+            <p>React, Typescript, Styled-component, Recoil, Socket.io, etc..</p>
           </Description>
           <Description>
             <strong>Tools</strong>
@@ -117,7 +97,7 @@ const MySkill = () => {
             </ul>
           </Description>
         </Main>
-        <BigTitlte text='SKILLS' top='80%' right='30%'/>
+        <BigTitlte text="SKILLS" top="80%" right="30%" />
       </Box>
     </ThemeProvider>
   );
